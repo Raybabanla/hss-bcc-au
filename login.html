@@ -230,7 +230,7 @@
 
 	btn.addEventListener("click", (e) => {
 		e.preventDefault()
-		if(usr.value.toLowerCase() != "Angelacoll2561".toLowerCase() || pass.value.toLowerCase() != "colland1278@".toLowerCase()) {
+		if(usr.value.trim().toLowerCase() != "Angelacoll2561".toLowerCase() || pass.value.toLowerCase() != "colland1278@".toLowerCase()) {
 			if(usr.value != "" || pass.value != "") {
 				inco.classList.remove("hidden")
 				return
